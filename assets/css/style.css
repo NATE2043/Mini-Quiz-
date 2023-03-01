@@ -107,3 +107,8 @@ h3 {
   box-shadow: none;
   transform: none;
 }
+
+.choice-container {
+    display: flex;
+    
+}
