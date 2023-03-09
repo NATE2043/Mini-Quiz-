@@ -50,12 +50,14 @@ h3 {
     align-items: center;
     max-width: 80rem;
     margin: 0 auto;
+    padding: 2rem;
 }
 
 /* aligning content*/
 
 .container > * {
   width: 100%;
+  padding: 2rem;
 }
 
 .flex-column {
@@ -108,7 +110,30 @@ h3 {
   transform: none;
 }
 
+/*quiz.html/css*/
+
 .choice-container {
     display: flex;
-    
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.4rem;
+    border: 0.1rem solid rgba(226, 44, 12, 0.412);
+    background-color: white;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgb(254, 255, 255);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #d60e0e;
+    color: white;
+}
+
+.choice-text {
+    padding: 1.5rem;
 }
